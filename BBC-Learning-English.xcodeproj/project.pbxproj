@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE3B175A276AE3A100CDA9F3 /* BBC_Learning_EnglishApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3B174A276AE3A000CDA9F3 /* BBC_Learning_EnglishApp.swift */; };
+		FE3B175B276AE3A100CDA9F3 /* BBC_Learning_EnglishApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3B174A276AE3A000CDA9F3 /* BBC_Learning_EnglishApp.swift */; };
+		FE3B175C276AE3A100CDA9F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3B174B276AE3A000CDA9F3 /* ContentView.swift */; };
+		FE3B175D276AE3A100CDA9F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3B174B276AE3A000CDA9F3 /* ContentView.swift */; };
+		FE3B175E276AE3A100CDA9F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE3B174C276AE3A100CDA9F3 /* Assets.xcassets */; };
+		FE3B175F276AE3A100CDA9F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE3B174C276AE3A100CDA9F3 /* Assets.xcassets */; };
+		FE3B1769276AE3C600CDA9F3 /* PhraseCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3B1768276AE3C600CDA9F3 /* PhraseCellView.swift */; };
+		FE3B176A276AE3C600CDA9F3 /* PhraseCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3B1768276AE3C600CDA9F3 /* PhraseCellView.swift */; };
+		FE3B176C276AE3D600CDA9F3 /* PhraseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3B176B276AE3D600CDA9F3 /* PhraseListView.swift */; };
+		FE3B176D276AE3D600CDA9F3 /* PhraseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3B176B276AE3D600CDA9F3 /* PhraseListView.swift */; };
+		FE3B176F276AE3DB00CDA9F3 /* PhraseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3B176E276AE3DB00CDA9F3 /* PhraseModel.swift */; };
+		FE3B1770276AE3DB00CDA9F3 /* PhraseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3B176E276AE3DB00CDA9F3 /* PhraseModel.swift */; };
+		FE3B1772276AE3E100CDA9F3 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3B1771276AE3E100CDA9F3 /* Network.swift */; };
+		FE3B1773276AE3E100CDA9F3 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3B1771276AE3E100CDA9F3 /* Network.swift */; };
+		FE3B177A276B084D00CDA9F3 /* Alamofire.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3B1775276AEED100CDA9F3 /* Alamofire.xcframework */; };
+		FE3B177B276B084D00CDA9F3 /* Alamofire.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FE3B1775276AEED100CDA9F3 /* Alamofire.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FE3B177E276B0FA800CDA9F3 /* SwiftSoup.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3B177D276B0FA800CDA9F3 /* SwiftSoup.xcframework */; };
+		FE3B177F276B0FA800CDA9F3 /* SwiftSoup.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FE3B177D276B0FA800CDA9F3 /* SwiftSoup.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FE3B1781276B168E00CDA9F3 /* PhraseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3B1780276B168E00CDA9F3 /* PhraseDetailView.swift */; };
+		FE3B1782276B168E00CDA9F3 /* PhraseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3B1780276B168E00CDA9F3 /* PhraseDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FE3B177C276B084D00CDA9F3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FE3B177F276B0FA800CDA9F3 /* SwiftSoup.xcframework in Embed Frameworks */,
+				FE3B177B276B084D00CDA9F3 /* Alamofire.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FE3B174A276AE3A000CDA9F3 /* BBC_Learning_EnglishApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBC_Learning_EnglishApp.swift; sourceTree = "<group>"; };
+		FE3B174B276AE3A000CDA9F3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FE3B174C276AE3A100CDA9F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE3B1751276AE3A100CDA9F3 /* BBC-Learning-English.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BBC-Learning-English.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE3B1757276AE3A100CDA9F3 /* BBC-Learning-English.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BBC-Learning-English.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE3B1759276AE3A100CDA9F3 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		FE3B1768276AE3C600CDA9F3 /* PhraseCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhraseCellView.swift; sourceTree = "<group>"; };
+		FE3B176B276AE3D600CDA9F3 /* PhraseListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhraseListView.swift; sourceTree = "<group>"; };
+		FE3B176E276AE3DB00CDA9F3 /* PhraseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhraseModel.swift; sourceTree = "<group>"; };
+		FE3B1771276AE3E100CDA9F3 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		FE3B1775276AEED100CDA9F3 /* Alamofire.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Alamofire.xcframework; path = Carthage/Build/Alamofire.xcframework; sourceTree = "<group>"; };
+		FE3B177D276B0FA800CDA9F3 /* SwiftSoup.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SwiftSoup.xcframework; path = Carthage/Build/SwiftSoup.xcframework; sourceTree = "<group>"; };
+		FE3B1780276B168E00CDA9F3 /* PhraseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhraseDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE3B174E276AE3A100CDA9F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3B177E276B0FA800CDA9F3 /* SwiftSoup.xcframework in Frameworks */,
+				FE3B177A276B084D00CDA9F3 /* Alamofire.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE3B1754276AE3A100CDA9F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE3B1744276AE3A000CDA9F3 = {
+			isa = PBXGroup;
+			children = (
+				FE3B1749276AE3A000CDA9F3 /* Shared */,
+				FE3B1758276AE3A100CDA9F3 /* macOS */,
+				FE3B1752276AE3A100CDA9F3 /* Products */,
+				FE3B1774276AEED100CDA9F3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FE3B1749276AE3A000CDA9F3 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				FE3B174A276AE3A000CDA9F3 /* BBC_Learning_EnglishApp.swift */,
+				FE3B1768276AE3C600CDA9F3 /* PhraseCellView.swift */,
+				FE3B1780276B168E00CDA9F3 /* PhraseDetailView.swift */,
+				FE3B176B276AE3D600CDA9F3 /* PhraseListView.swift */,
+				FE3B176E276AE3DB00CDA9F3 /* PhraseModel.swift */,
+				FE3B174B276AE3A000CDA9F3 /* ContentView.swift */,
+				FE3B1771276AE3E100CDA9F3 /* Network.swift */,
+				FE3B174C276AE3A100CDA9F3 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		FE3B1752276AE3A100CDA9F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE3B1751276AE3A100CDA9F3 /* BBC-Learning-English.app */,
+				FE3B1757276AE3A100CDA9F3 /* BBC-Learning-English.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE3B1758276AE3A100CDA9F3 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				FE3B1759276AE3A100CDA9F3 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		FE3B1774276AEED100CDA9F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE3B177D276B0FA800CDA9F3 /* SwiftSoup.xcframework */,
+				FE3B1775276AEED100CDA9F3 /* Alamofire.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE3B1750276AE3A100CDA9F3 /* BBC-Learning-English (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE3B1762276AE3A100CDA9F3 /* Build configuration list for PBXNativeTarget "BBC-Learning-English (iOS)" */;
+			buildPhases = (
+				FE3B174D276AE3A100CDA9F3 /* Sources */,
+				FE3B174E276AE3A100CDA9F3 /* Frameworks */,
+				FE3B174F276AE3A100CDA9F3 /* Resources */,
+				FE3B177C276B084D00CDA9F3 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BBC-Learning-English (iOS)";
+			productName = "BBC-Learning-English (iOS)";
+			productReference = FE3B1751276AE3A100CDA9F3 /* BBC-Learning-English.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE3B1756276AE3A100CDA9F3 /* BBC-Learning-English (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE3B1765276AE3A100CDA9F3 /* Build configuration list for PBXNativeTarget "BBC-Learning-English (macOS)" */;
+			buildPhases = (
+				FE3B1753276AE3A100CDA9F3 /* Sources */,
+				FE3B1754276AE3A100CDA9F3 /* Frameworks */,
+				FE3B1755276AE3A100CDA9F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BBC-Learning-English (macOS)";
+			productName = "BBC-Learning-English (macOS)";
+			productReference = FE3B1757276AE3A100CDA9F3 /* BBC-Learning-English.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE3B1745276AE3A000CDA9F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					FE3B1750276AE3A100CDA9F3 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					FE3B1756276AE3A100CDA9F3 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+				};
+			};
+			buildConfigurationList = FE3B1748276AE3A000CDA9F3 /* Build configuration list for PBXProject "BBC-Learning-English" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE3B1744276AE3A000CDA9F3;
+			productRefGroup = FE3B1752276AE3A100CDA9F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE3B1750276AE3A100CDA9F3 /* BBC-Learning-English (iOS) */,
+				FE3B1756276AE3A100CDA9F3 /* BBC-Learning-English (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE3B174F276AE3A100CDA9F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3B175E276AE3A100CDA9F3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE3B1755276AE3A100CDA9F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3B175F276AE3A100CDA9F3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE3B174D276AE3A100CDA9F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3B1769276AE3C600CDA9F3 /* PhraseCellView.swift in Sources */,
+				FE3B176C276AE3D600CDA9F3 /* PhraseListView.swift in Sources */,
+				FE3B1772276AE3E100CDA9F3 /* Network.swift in Sources */,
+				FE3B176F276AE3DB00CDA9F3 /* PhraseModel.swift in Sources */,
+				FE3B175C276AE3A100CDA9F3 /* ContentView.swift in Sources */,
+				FE3B175A276AE3A100CDA9F3 /* BBC_Learning_EnglishApp.swift in Sources */,
+				FE3B1781276B168E00CDA9F3 /* PhraseDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE3B1753276AE3A100CDA9F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3B176A276AE3C600CDA9F3 /* PhraseCellView.swift in Sources */,
+				FE3B176D276AE3D600CDA9F3 /* PhraseListView.swift in Sources */,
+				FE3B1773276AE3E100CDA9F3 /* Network.swift in Sources */,
+				FE3B1770276AE3DB00CDA9F3 /* PhraseModel.swift in Sources */,
+				FE3B175D276AE3A100CDA9F3 /* ContentView.swift in Sources */,
+				FE3B175B276AE3A100CDA9F3 /* BBC_Learning_EnglishApp.swift in Sources */,
+				FE3B1782276B168E00CDA9F3 /* PhraseDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FE3B1760276AE3A100CDA9F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE3B1761276AE3A100CDA9F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FE3B1763276AE3A100CDA9F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PKUVM4XC6D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fancy.BBC-Learning-English";
+				PRODUCT_NAME = "BBC-Learning-English";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE3B1764276AE3A100CDA9F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PKUVM4XC6D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fancy.BBC-Learning-English";
+				PRODUCT_NAME = "BBC-Learning-English";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE3B1766276AE3A100CDA9F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PKUVM4XC6D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fancy.BBC-Learning-English";
+				PRODUCT_NAME = "BBC-Learning-English";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FE3B1767276AE3A100CDA9F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PKUVM4XC6D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fancy.BBC-Learning-English";
+				PRODUCT_NAME = "BBC-Learning-English";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE3B1748276AE3A000CDA9F3 /* Build configuration list for PBXProject "BBC-Learning-English" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE3B1760276AE3A100CDA9F3 /* Debug */,
+				FE3B1761276AE3A100CDA9F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE3B1762276AE3A100CDA9F3 /* Build configuration list for PBXNativeTarget "BBC-Learning-English (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE3B1763276AE3A100CDA9F3 /* Debug */,
+				FE3B1764276AE3A100CDA9F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE3B1765276AE3A100CDA9F3 /* Build configuration list for PBXNativeTarget "BBC-Learning-English (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE3B1766276AE3A100CDA9F3 /* Debug */,
+				FE3B1767276AE3A100CDA9F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE3B1745276AE3A000CDA9F3 /* Project object */;
+}
