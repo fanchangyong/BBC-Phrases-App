@@ -6,22 +6,23 @@
 //
 
 import SwiftUI
+import CoreData
 
 struct PhraseListView: View {
-    @EnvironmentObject var network: Network
+    @StateObject private var dataSource = DataSource()
     
     var body: some View {
         NavigationView {
-            List(network.phrases) { phrase in
+            List(dataSource.phrases) { phrase in
                 NavigationLink(destination: PhraseDetailView(phrase: phrase)) {
                     PhraseCellView(phrase: phrase)
                 }
             }
-            .navigationTitle("Phrases")
+            .navigationTitle("Today Phrases")
         }
         .onAppear {
             print("on appear")
-            network.loadPhrases()
+            dataSource.fetchPhrases()
         }
     }
 }

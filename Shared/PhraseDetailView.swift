@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct PhraseDetailView: View {
-    @EnvironmentObject var network: Network
     var phrase: Phrase
     
     var body: some View {
@@ -26,12 +25,12 @@ struct PhraseDetailView: View {
                 Text(phrase.title)
                     .font(.title)
                     .fontWeight(.bold)
-                Text(network.currentPhrase?.description ?? "")
+                Text(phrase.desc ?? "")
                 Text("例句")
                     .font(.system(size: 24))
                     .fontWeight(.medium)
                 
-                ForEach(network.currentPhrase?.sentences ?? [], id: \.self) { sentence in
+                ForEach(phrase.sentences ?? [], id: \.self) { sentence in
                     Text(sentence)
                 }
                 
@@ -39,9 +38,6 @@ struct PhraseDetailView: View {
             .padding()
             Spacer()
             
-        }
-        .onAppear {
-            network.getPhraseDetail(url: phrase.url)
         }
     }
 }

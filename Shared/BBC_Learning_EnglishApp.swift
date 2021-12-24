@@ -9,12 +9,12 @@ import SwiftUI
 
 @main
 struct BBC_Learning_EnglishApp: App {
-    var network = Network()
+    @StateObject var dataSource = DataSource()
     
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environmentObject(network)
+                .environmentObject(dataSource)
         }
     }
 }

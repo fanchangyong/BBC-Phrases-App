@@ -19,8 +19,8 @@
 		FE3B176D276AE3D600CDA9F3 /* PhraseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3B176B276AE3D600CDA9F3 /* PhraseListView.swift */; };
 		FE3B176F276AE3DB00CDA9F3 /* PhraseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3B176E276AE3DB00CDA9F3 /* PhraseModel.swift */; };
 		FE3B1770276AE3DB00CDA9F3 /* PhraseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3B176E276AE3DB00CDA9F3 /* PhraseModel.swift */; };
-		FE3B1772276AE3E100CDA9F3 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3B1771276AE3E100CDA9F3 /* Network.swift */; };
-		FE3B1773276AE3E100CDA9F3 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3B1771276AE3E100CDA9F3 /* Network.swift */; };
+		FE3B1772276AE3E100CDA9F3 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3B1771276AE3E100CDA9F3 /* DataSource.swift */; };
+		FE3B1773276AE3E100CDA9F3 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3B1771276AE3E100CDA9F3 /* DataSource.swift */; };
 		FE3B177A276B084D00CDA9F3 /* Alamofire.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3B1775276AEED100CDA9F3 /* Alamofire.xcframework */; };
 		FE3B177B276B084D00CDA9F3 /* Alamofire.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FE3B1775276AEED100CDA9F3 /* Alamofire.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FE3B177E276B0FA800CDA9F3 /* SwiftSoup.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3B177D276B0FA800CDA9F3 /* SwiftSoup.xcframework */; };
@@ -54,7 +54,7 @@
 		FE3B1768276AE3C600CDA9F3 /* PhraseCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhraseCellView.swift; sourceTree = "<group>"; };
 		FE3B176B276AE3D600CDA9F3 /* PhraseListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhraseListView.swift; sourceTree = "<group>"; };
 		FE3B176E276AE3DB00CDA9F3 /* PhraseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhraseModel.swift; sourceTree = "<group>"; };
-		FE3B1771276AE3E100CDA9F3 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		FE3B1771276AE3E100CDA9F3 /* DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 		FE3B1775276AEED100CDA9F3 /* Alamofire.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Alamofire.xcframework; path = Carthage/Build/Alamofire.xcframework; sourceTree = "<group>"; };
 		FE3B177D276B0FA800CDA9F3 /* SwiftSoup.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SwiftSoup.xcframework; path = Carthage/Build/SwiftSoup.xcframework; sourceTree = "<group>"; };
 		FE3B1780276B168E00CDA9F3 /* PhraseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhraseDetailView.swift; sourceTree = "<group>"; };
@@ -99,7 +99,7 @@
 				FE3B176B276AE3D600CDA9F3 /* PhraseListView.swift */,
 				FE3B176E276AE3DB00CDA9F3 /* PhraseModel.swift */,
 				FE3B174B276AE3A000CDA9F3 /* ContentView.swift */,
-				FE3B1771276AE3E100CDA9F3 /* Network.swift */,
+				FE3B1771276AE3E100CDA9F3 /* DataSource.swift */,
 				FE3B174C276AE3A100CDA9F3 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -232,7 +232,7 @@
 			files = (
 				FE3B1769276AE3C600CDA9F3 /* PhraseCellView.swift in Sources */,
 				FE3B176C276AE3D600CDA9F3 /* PhraseListView.swift in Sources */,
-				FE3B1772276AE3E100CDA9F3 /* Network.swift in Sources */,
+				FE3B1772276AE3E100CDA9F3 /* DataSource.swift in Sources */,
 				FE3B176F276AE3DB00CDA9F3 /* PhraseModel.swift in Sources */,
 				FE3B175C276AE3A100CDA9F3 /* ContentView.swift in Sources */,
 				FE3B175A276AE3A100CDA9F3 /* BBC_Learning_EnglishApp.swift in Sources */,
@@ -246,7 +246,7 @@
 			files = (
 				FE3B176A276AE3C600CDA9F3 /* PhraseCellView.swift in Sources */,
 				FE3B176D276AE3D600CDA9F3 /* PhraseListView.swift in Sources */,
-				FE3B1773276AE3E100CDA9F3 /* Network.swift in Sources */,
+				FE3B1773276AE3E100CDA9F3 /* DataSource.swift in Sources */,
 				FE3B1770276AE3DB00CDA9F3 /* PhraseModel.swift in Sources */,
 				FE3B175D276AE3A100CDA9F3 /* ContentView.swift in Sources */,
 				FE3B175B276AE3A100CDA9F3 /* BBC_Learning_EnglishApp.swift in Sources */,

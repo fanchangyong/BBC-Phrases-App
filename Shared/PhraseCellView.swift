@@ -28,9 +28,6 @@ struct PhraseCellView: View {
                     .lineLimit(nil)
                     .multilineTextAlignment(.leading)
                     .padding(.vertical, 12)
-                Text(phrase.date)
-                    .font(.system(size: 12))
-                    .foregroundColor(.secondary)
             }
         }
     }
